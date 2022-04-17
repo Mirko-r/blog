@@ -1,5 +1,5 @@
-### HOME
-#### Ciao, sono Mirko Rovere, un programmatore italiano
+### Mirko Rovere
+#### Ciao, sono un programmatore italiano appassionato del mondo FOSS e Linux.
 
 ![gif](https://github.com/M0-san/M0-san/blob/master/coding.gif?raw=true)
 
