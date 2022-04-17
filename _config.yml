@@ -5,9 +5,9 @@ description: "For coders by coders" # This will show up in places like twitter, 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
 email: "04mirko@libero.it"
-twitter_username: "#"
+#twitter_username: "#"
 github_username: "Mirko-r"
-linkedin_username: "#"
+#linkedin_username: "#"
 #facebook_username: username
 #flickr_username: username
 #instagram_username: username
@@ -36,7 +36,7 @@ titles_from_headings:
 
 defaults:
   - scope:
-      path: ""
+      path: "/blog/"
       type: post
     values:
       tags: Other
