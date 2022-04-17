@@ -20,6 +20,8 @@ github_username: "Mirko-r"
 #########################################################################################
 theme: "minima"
 
+permalink: /blog/:title
+
 rss: rss
 
 kramdown:
