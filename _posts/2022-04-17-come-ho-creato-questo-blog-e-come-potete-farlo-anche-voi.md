@@ -29,15 +29,18 @@ Questo è come ho fatto
 ## Setup
 
 1. __Creare un account Github__ :
+
 Se non hai un account creane uno [qui](https://github.com/join)
 >_**nota**: Il nome utente che sceglerai farà parte del link_
 <br>
 
 2. __Aprire il template__:
+
 Copia questo [link](https://github.com/chadbaldwin/simple-blog-bootstrap/generate), e segui le istruzioni al prossimo punto
 <br>
 
 3. __Setup del repo__:
+
 >_**nota**: Se non metti correttamente il nome,tutto ciò non funzionerà_
 
 Il tuo repo dovrà chimarsi così: [username].github.io, fai anche attezione a lasciarlo pubblico e non privato. Ora puoi cliccare su "Create repository".
