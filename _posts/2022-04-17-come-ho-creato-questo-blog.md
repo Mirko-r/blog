@@ -1,4 +1,4 @@
-#Come ho creato questo blog, e come potete farlo anche voi
+# Come ho creato questo blog, e come potete farlo anche voi
 ## Con Github Pages
 
 ---
