@@ -28,8 +28,8 @@ Questo è come ho fatto
 
 ## Inziamo
 
-1. - Creare un account Github 
+1. Creare un account Github 
 
-Se non hai un account creane uno.
+... Se non hai un account creane uno.
 
-* nota: l'username che sceglierai farà parte del link * 
+... _nota: l'username che sceglierai farà parte del link_ 
