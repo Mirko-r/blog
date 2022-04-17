@@ -85,4 +85,8 @@ I post si trovano nella cartella `_post`, il file che trovi dentro é un sample.
 
 Ma prima spieghiamo alcune cose da sapere:
 
-* GitHub Pages usa un software chiamato "Jekyll" per far funzionare il dietro le quinte 
+* GitHub Pages usa un software chiamato "Jekyll" per far funzionare il dietro le quinte, converte il tuo post in HTML che puoi vedere nel browser.
+* I post vanno chiamati seguendo sempre questo schema:  `yyyy-mm-dd-your-blog-post-name.md`
+* I post sono scritti in markdown, se non lo conosci, non preoccuparti, guarda [questo post](https://guides.github.com/features/mastering-markdown/) per imprarae le basi.
+
+Questo é tutto quello di cui hai bisogno per partire
