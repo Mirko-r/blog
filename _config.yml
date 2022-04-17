@@ -20,7 +20,7 @@ github_username: "Mirko-r"
 #########################################################################################
 theme: "minima"
 
-permalink: :title
+permalink: /:categories/:year/:month/:day/:title
 
 rss: rss
 
@@ -41,6 +41,5 @@ defaults:
   - scope:
       path: ""
       type: post
-      permalink: /blog/:title
     values:
       tags: Other
