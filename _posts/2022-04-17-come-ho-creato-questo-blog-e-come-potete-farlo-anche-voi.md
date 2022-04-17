@@ -74,3 +74,15 @@ Se non vuoi mettere un email, o qualsiasi altro account social, puoi semplicemen
 Dopo, vorrai modificare la home page. Qui puoi scrivere una tua descrizione, o magari un riassunto su quali argomenti tratta il tuo blog.
 
 Per editare la home page, bisogna fare la stessa cosa di prima ma con `index.md`. 
+
+<img style="width:100%;height:100%;" data-uri="82682" src="https://chadbaldwin.net/img/createblog/create_blog_edit_home_page.gif">
+
+---
+
+## Il tuo primo post
+
+I post si trovano nella cartella `_post`, il file che trovi dentro é un sample.
+
+Ma prima spieghiamo alcune cose da sapere:
+
+* GitHub Pages usa un software chiamato "Jekyll" per far funzionare il dietro le quinte 
