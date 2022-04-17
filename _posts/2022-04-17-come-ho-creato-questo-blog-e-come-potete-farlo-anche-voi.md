@@ -60,3 +60,17 @@ Una volta passati un paio di minuti, vai a controllare il tuo sito! Il link sar√
 Come questo: https://chadblogtest.github.io
 
 ---
+
+## Customization
+
+Ora che hai il tuo blog probabilmente non vuoi che il tuo sito abbia "Default Author Name" dapertutto, probabilmente vuoi anche cambiare il nome del blog in qualcos'altro da "My blogs name".
+
+Per cambiare queste cose dobbiamo modificare questo file: `config.yml`
+
+Se non vuoi mettere un email, o qualsiasi altro account social, puoi semplicemente commentarli con `#`
+
+<img style="width:100%;height:100%;" data-uri="82682" src="https://chadbaldwin.net/img/createblog/create_blog_edit_config.gif">
+
+Dopo, vorrai modificare la home page. Qui puoi scrivere una tua descrizione, o magari un riassunto su quali argomenti tratta il tuo blog.
+
+Per editare la home page, bisogna fare la stessa cosa di prima ma con `index.md`. 
