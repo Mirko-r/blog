@@ -22,7 +22,7 @@ theme: "minima"
 
 rss: rss
 
-permalink: /blog/:title
+permalink: :title
 
 kramdown:
   syntax_highlighter_opts:
