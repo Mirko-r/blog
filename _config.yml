@@ -44,3 +44,11 @@ defaults:
       type: post
     values:
       tags: Other
+      
+jekyll_timeago:
+  depth: 2
+  translations_path: '/config/locales/*.yaml'
+  default_locale: 'it'
+  fallbacks: true
+  available_locales:
+    - 'it'
