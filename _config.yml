@@ -20,7 +20,7 @@ github_username: "Mirko-r"
 #########################################################################################
 theme: "minima"
 
-permalink: /blog/:title
+permalink: :title
 
 rss: rss
 
