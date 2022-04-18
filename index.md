@@ -1,11 +1,9 @@
-### Mirko Rovere
+### {% avatar Mirko-r %} Mirko Rovere
 #### Ciao, sono un programmatore italiano appassionato del mondo FOSS e Linux.
 
 ![gif](https://github.com/M0-san/M0-san/blob/master/coding.gif?raw=true)
 
 Mi piace imparare tutto quello che posso, e questo blog é un po' il mio diario di bordo
-
-{% avatar Mirko-r %}
 
 #### Linguaggi più usati
 
