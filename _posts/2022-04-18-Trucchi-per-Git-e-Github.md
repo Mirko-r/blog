@@ -223,7 +223,7 @@ Nel caso che sia un pull request:
 
 Per esempio:
 
-Voglio usare ka sintassi di ruby, scriverò:
+Voglio usare la sintassi di ruby, scriverò:
 
 ```
 ```ruby
