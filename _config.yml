@@ -18,7 +18,7 @@ github_username: "Mirko-r"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-theme: "minima"
+remote_theme: pages-themes/slate@v0.2.0
 
 rss: rss
 
@@ -33,6 +33,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-avatar
+  - jekyll-remote-theme
 
 titles_from_headings:
   strip_title: true
