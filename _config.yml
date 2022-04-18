@@ -18,7 +18,7 @@ github_username: "Mirko-r"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-theme: "jekyll-theme-yat"
+theme: jekyll-theme-yat
 
 rss: rss
 
