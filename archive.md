@@ -3,6 +3,10 @@ layout: page
 title: Blog Archive
 ---
 
+<!-- HTML elements for search -->
+<input type="text" id="search-input" placeholder="Search blog posts..">
+<ul id="results-container"></ul>
+
 {% for tag in site.tags %}
   <h3>{{ tag[0] }}</h3>
   <ul>
