@@ -203,4 +203,44 @@ Funziona anche con in range, es: `#L53-L60`
  
  ### Filtri
  
- Sia le 
+ Sia le issues che le Pull requests permettono i filtri, ma **solo** nell'interfaccia grafica
+ 
+ Se voglio filtrare le issues per il label "activerecord":
+ 
+ `is:issue label:activerecord`
+ 
+ ma possono anche filtrare per il issue che **non** contengono questo label:
+ 
+ `is:issue -label:activerecord` 
+ 
+Nel caso che sia un pull request:
+
+`is:pr label:activerecord`
+
+---
+
+### Syntax highlighting nei file Markdown 
+
+Per esempio:
+
+Voglio usare ka sintassi di ruby, scriverò:
+
+```
+```ruby
+require 'tabbit'
+table = Tabbit.new('Name', 'Email')
+table.add_row('Tim Green', 'tiimgreen@gmail.com')
+puts table.to_s```
+```
+
+Il risultato sarà:
+
+```ruby
+require 'tabbit'
+table = Tabbit.new('Name', 'Email')
+table.add_row('Tim Green', 'tiimgreen@gmail.com')
+puts table.to_s
+```
+
+---
+
