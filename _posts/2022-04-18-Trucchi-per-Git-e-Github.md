@@ -244,3 +244,66 @@ puts table.to_s
 
 ---
 
+### Mettere velocemente una licenza
+
+Quando crei un repo Github ti da la possibilità di mettere una licenza:
+
+![license on create](https://camo.githubusercontent.com/2991dfedfd775a81bc9bd95b84fe64cf4cb6772009b8821afe54e521b620fbee/687474703a2f2f692e696d6775722e636f6d2f4368716a3446672e706e67)
+
+Puoi aggiungerla in un repo già esistente creando un nuovo file e chiamandolo `LICENSE`, Github ti darà le opzioni dei vari templates:
+
+![LICENSE](https://camo.githubusercontent.com/54d5ef806a98799ac564b397c4daaaa0ef269d0924b551db40ed82328fd95aaa/687474703a2f2f692e696d6775722e636f6d2f66546a516963742e706e67)
+
+---
+
+### Lista di task
+
+Nelle issues,  pull requests e documenti Markdown le checkboxes possono essere aggiunte seguendo la seguente sintassi, **faii attenzione agli spazi**
+
+```
+- [ ] Be awesome
+- [ ] Prepare dinner
+  - [ ] Research recipe
+  - [ ] Buy ingredients
+  - [ ] Cook recipe
+- [ ] Sleep
+```
+
+Il risultato sarà:
+
+![tasklist](https://camo.githubusercontent.com/7192b7f5fae5af26010aec837af98d7dc9bcb4a1a9c3618b36d76b5477ff319c/687474703a2f2f692e696d6775722e636f6d2f6a4a42586873592e706e67)
+
+O per il markdown:
+
+- [ ] Be awesome
+- [ ] Prepare dinner
+  - [ ] Research recipe
+  - [ ] Buy ingredients
+  - [ ] Cook recipe
+- [ ] Sleep
+
+Quando voglio spuntare una casella, il codice sarà:
+
+```
+- [ ] Mercury
+- [x] Venus
+- [x] Earth
+  - [x] Moon
+- [x] Mars
+  - [ ] Deimos
+  - [ ] Phobos
+```
+
+Il risultato sarà:
+
+- [ ] Mercury
+- [x] Venus
+- [x] Earth
+  - [x] Moon
+- [x] Mars
+  - [ ] Deimos
+  - [ ] Phobos
+ 
+---
+
+### Link relativi
