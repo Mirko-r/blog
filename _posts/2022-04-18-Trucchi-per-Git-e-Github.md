@@ -189,7 +189,7 @@ Se vuoi linkare ad un'altra issue nello stesso repo, semplicemnte digita `#` e i
  
  ---
  
- ### Conversazioni chiuse
+### Conversazioni chiuse
  
  Le pull requests e le issues possono ora essere chiuse dall'autore o dai collaboratori del repo
  
@@ -307,3 +307,20 @@ Il risultato sarà:
 ---
 
 ### Link relativi
+
+I link relativi sono raccomandati nel tuo file Markdown quando devi linkare conetenuti interni 
+```markdwon
+[Link to a header](#awesome-section)
+[Link to a file](docs/readme)
+``` 
+
+---
+
+### Anullare una pull request
+
+Dopo aver fatto il merge di una pull request, potresti accorgerti di aver sbagliato, o che sia stata una pessima decisione fare il merge di quella pull request.
+
+Puoi annullarla cliccando il pulsante **Revert** nella parte destra del commit in una pull request, per creare una nuova pull request con le modifiche annullate.
+
+![revertpr](https://camo.githubusercontent.com/0d3350caf2bb1cba53123ffeafc00ca702b1b164/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f68656c702f70756c6c5f72657175657374732f7265766572742d70756c6c2d726571756573742d6c696e6b2e706e67)
+
