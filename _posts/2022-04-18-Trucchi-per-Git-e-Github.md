@@ -181,7 +181,7 @@ Funziona anche con in range, es: `#L53-L60`
  
  ---
  
- ### Cross-link issues
+ ###  Cross-link issues
  
  Se vuoi linkare ad un'altra issue nello stesso repo, semplicemnte digita `#` e il numero della issue, e sarà auto-linkata 
  
@@ -189,7 +189,7 @@ Funziona anche con in range, es: `#L53-L60`
  
  ---
  
- ### Conversazioni chiuse
+ ###  Conversazioni chiuse
  
  Le pull requests e le issues possono ora essere chiuse dall'autore o dai collaboratori del repo
  
@@ -201,7 +201,7 @@ Funziona anche con in range, es: `#L53-L60`
  
  ---
  
- ### Filtri
+ ###  Filtri
  
  Sia le issues che le Pull requests permettono i filtri, ma **solo** nell'interfaccia grafica
  
