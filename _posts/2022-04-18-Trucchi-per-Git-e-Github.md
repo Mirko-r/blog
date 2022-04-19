@@ -169,7 +169,7 @@ Funziona anche con in range, es: `#L53-L60`
 
  ---
  
- ### Chiudere le issues tramite messaggio di commit
+### Chiudere le issues tramite messaggio di commit
  
  Se un dato commit chiude una issue, qualsiasi keyword `fix/fixed/fixes/close/closed/closes/resolve/resolved/resolves`, seguita dal numero della issue, chiuderà la stessa.
  
@@ -181,15 +181,15 @@ Funziona anche con in range, es: `#L53-L60`
  
  ---
  
- ###  Cross-link issues
+### Cross-link issues
  
- Se vuoi linkare ad un'altra issue nello stesso repo, semplicemnte digita `#` e il numero della issue, e sarà auto-linkata 
+Se vuoi linkare ad un'altra issue nello stesso repo, semplicemnte digita `#` e il numero della issue, e sarà auto-linkata 
  
  ![cross-link](https://camo.githubusercontent.com/447e39ab8d96b553cadc8d31799100190df230a8/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f626c6f672f323031312f736563726574732f7265666572656e6365732e706e67)
  
  ---
  
- ###  Conversazioni chiuse
+ ### Conversazioni chiuse
  
  Le pull requests e le issues possono ora essere chiuse dall'autore o dai collaboratori del repo
  
@@ -201,17 +201,17 @@ Funziona anche con in range, es: `#L53-L60`
  
  ---
  
- ###  Filtri
+### Filtri
  
- Sia le issues che le Pull requests permettono i filtri, ma **solo** nell'interfaccia grafica
+Sia le issues che le Pull requests permettono i filtri, ma **solo** nell'interfaccia grafica
  
- Se voglio filtrare le issues per il label "activerecord":
+Se voglio filtrare le issues per il label "activerecord":
  
- `is:issue label:activerecord`
+`is:issue label:activerecord`
  
- ma possono anche filtrare per il issue che **non** contengono questo label:
+ma possono anche filtrare per il issue che **non** contengono questo label:
  
- `is:issue -label:activerecord` 
+`is:issue -label:activerecord` 
  
 Nel caso che sia un pull request:
 
