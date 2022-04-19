@@ -30,7 +30,9 @@ Questo è un esempio di file Go con `?ts=4`
 
 Per vedere tutti i commit di un autore in un repo aggiungere `?author=user` all'url
 
-`https://github.com/Mirko-r/blog/commits/main?author=Mirko-r`
+```
+https://github.com/Mirko-r/blog/commits/main?author=Mirko-r
+```
 
 ---
 
@@ -38,7 +40,9 @@ Per vedere tutti i commit di un autore in un repo aggiungere `?author=user` all'
 
 Quando si clona un repo il `.git` al fondo può essere tralasciato
 
-`$> git clone https://github.com/Mirko-r/blog`
+```
+$> git clone https://github.com/Mirko-r/blog
+```
 
 ---
 
@@ -64,7 +68,9 @@ Da qui puoi accedere alla pagina di comparazione o rimuovere un branch solo clic
  
  Per esempio:
  
- `https://github.com/rails/rails/compare/master...4-1-stable`
+ ```
+ https://github.com/rails/rails/compare/master...4-1-stable
+ ```
  
  ![range img 1](https://camo.githubusercontent.com/d5e35a2c90ebae61da245ce12c54a84469c50e2792fd71f5b5a7762424f4b495/687474703a2f2f692e696d6775722e636f6d2f744952434f734b2e706e67)
  
@@ -91,11 +97,15 @@ https://github.com/rails/rails/compare/master...4-1-stable.patch
 #### Comparare i branches tra differenti fork 
  Per usare Github per comparare branches tra differenti frok cambia l'url così
  
- `https://github.com/{user}/{repo}/compare/{foreign-user}:{branch}...{own-branch}`
+ ```
+ https://github.com/{user}/{repo}/compare/{foreign-user}:{branch}...{own-branch}
+ ```
  
  Per esmpio: 
 
-`https://github.com/rails/rails/compare/byroot:master...master`
+```
+https://github.com/rails/rails/compare/byroot:master...master
+```
 
 ![branch tra differenti fork](https://camo.githubusercontent.com/ba19bca61911b7ef26407cd70ae653d294436ba04027e80435b92e18df1bf5cd/687474703a2f2f692e696d6775722e636f6d2f513157367163422e706e67)
 
@@ -111,7 +121,9 @@ Aggiungi `.plib` alla fine di qualiasi gists url per vere un la versione HTML-on
 
 I Gists possono essere trattati come ogni repo ed essere clonati.
 
-`$ git clone https://gist.github.com/tiimgreen/10545817`
+```
+$ git clone https://gist.github.com/tiimgreen/10545817
+```
 
 ![Gists-terminal](https://camo.githubusercontent.com/e3ba38985748fd910017b002f4d406c82528ff8657fadaef1490449cfe8993b3/687474703a2f2f692e696d6775722e636f6d2f4263467a6162702e706e67)
 
@@ -125,26 +137,6 @@ Password for 'https://tiimgreen@gist.github.com':
 ```
 
 Comunque, I Gists non supportano le directories. Tutti i file vanno aggiunti nel root del repo.
-
----
-
-### Git.io
-
-[Git.io](git.io) è un semplice url shortener per Github 
-
-![Git.io](https://camo.githubusercontent.com/30d4e3343efecda9f30ee4eaa2671b10424969662e0eac58736d0f6e0faadd9d/687474703a2f2f692e696d6775722e636f6d2f364a55666263472e706e673f31)
-
-Puoi anche usarlo con Curl:
-
-```bash
-$ curl -i http://git.io -F "url=https://github.com/..."
-HTTP/1.1 201 Created
-Location: http://git.io/abc123
-
-$ curl -i http://git.io/abc123
-HTTP/1.1 302 Found
-Location: https://github.com/...
-``` 
 
 ---
 
@@ -182,7 +174,9 @@ https://github.com/rails/rails/blob/master/activemodel/lib/active_model.rb#L53-L
  
 Se un dato commit chiude una issue, qualsiasi keyword `fix/fixed/fixes/close/closed/closes/resolve/resolved/resolves`, seguita dal numero della issue, chiuderà la stessa.
  
- `$ git commit -m "Fix screwup, fixes #12"`
+ ```
+ $ git commit -m "Fix screwup, fixes #12
+ ```
  
  Chiuderà la issue 12
  
@@ -267,7 +261,7 @@ Puoi aggiungerla in un repo già esistente creando un nuovo file e chiamandolo `
 
 ### Lista di task
 
-Nelle issues,  pull requests e documenti Markdown le checkboxes possono essere aggiunte seguendo la seguente sintassi, **faii attenzione agli spazi**
+Nelle issues,  pull requests e documenti Markdown le checkboxes possono essere aggiunte seguendo la seguente sintassi, **fai attenzione agli spazi**
 
 ```
 - [ ] Be awesome
