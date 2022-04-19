@@ -70,8 +70,11 @@ Da qui puoi accedere alla pagina di comparazione o rimuovere un branch solo clic
  
  il valore `{range}` può essere cambiato per cose tipo:
  
- `https://github.com/rails/rails/compare/master@{1.day.ago}...master
-https://github.com/rails/rails/compare/master@{2014-10-04}...master `
+ ```
+https://github.com/rails/rails/compare/master@{1.day.ago}...master
+https://github.com/rails/rails/compare/master@{2014-10-04}...master
+```
+
 
 Ecco un esempio di `{range}` con la data `YYYY-MM-DD`
 
@@ -79,8 +82,10 @@ Ecco un esempio di `{range}` con la data `YYYY-MM-DD`
 
 I branches possono essere comparati anche per `diff` o `path` :
 
-`https://github.com/rails/rails/compare/master...4-1-stable.diff
-https://github.com/rails/rails/compare/master...4-1-stable.patch`
+```https://github.com/rails/rails/compare/master...4-1-stable.diff
+https://github.com/rails/rails/compare/master...4-1-stable.patch
+```
+
 
 
 #### Comparare i branches tra differenti fork 
@@ -164,7 +169,10 @@ Aggiungendo `#L52` alla fine dell'url Github evidenzierà la linea 52 del file
 
 Funziona anche con in range, es: `#L53-L60`
 
-`https://github.com/rails/rails/blob/master/activemodel/lib/active_model.rb#L53-L60`
+```
+https://github.com/rails/rails/blob/master/activemodel/lib/active_model.rb#L53-L60
+```
+
 
 ![linehg](https://camo.githubusercontent.com/b441e45e8f703462f5ddfa86aaa49d199870c1251ba252f017153e94aa7bd754/687474703a2f2f692e696d6775722e636f6d2f3841686a72437a2e706e67)
 
@@ -172,7 +180,7 @@ Funziona anche con in range, es: `#L53-L60`
  
 ### Chiudere le issues tramite messaggio di commit
  
- Se un dato commit chiude una issue, qualsiasi keyword `fix/fixed/fixes/close/closed/closes/resolve/resolved/resolves`, seguita dal numero della issue, chiuderà la stessa.
+Se un dato commit chiude una issue, qualsiasi keyword `fix/fixed/fixes/close/closed/closes/resolve/resolved/resolves`, seguita dal numero della issue, chiuderà la stessa.
  
  `$ git commit -m "Fix screwup, fixes #12"`
  
@@ -330,7 +338,7 @@ Puoi annullarla cliccando il pulsante **Revert** nella parte destra del commit i
 ### Diffs
 
 #### Mappe "diffabili" 
- Ogni volta che vedi un commit o una pull request che contiene geodata. Github renderizerà una rappresentazione visuale di cosa è cambiato.
+ Ogni volta che vedi un commit o una pull request che contiene geodata. Github renderizzerà una rappresentazione visuale di cosa è cambiato.
  
 [![Diffable Maps](https://f.cloud.github.com/assets/282759/2090660/63f2e45a-8e97-11e3-9d8b-d4c8078b004e.gif)](https://github.com/benbalter/congressional-districts/commit/2233c76ca5bb059582d796f053775d8859198ec5)
 
@@ -542,7 +550,7 @@ Qualche alias utile:
 
 #### Auto correzione
 
-Git ti da suggerrmenti per comandi con errori, se l'auto correzione è abilitata, li corregerà ed eseguirà automaticamente. L'auto correzione si abilita specificando un intero che è il delay in decide di secondi prima che git eseguirà il comando corretto.
+Git ti da suggerrmenti per comandi con errori, se l'auto correzione è abilitata, li corregerà ed eseguirà automaticamente. L'auto correzione si abilita specificando un intero che è il delay in secondi prima che git eseguirà il comando corretto.
 
 Per esmpio, se scrivi `git comit`, il risultato sarà:
 
