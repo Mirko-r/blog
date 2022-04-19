@@ -1,4 +1,4 @@
-> Una collezione di features nascoste e no di Git e Github.
+> Una collezione di features nascoste e non di Git e Github.
 
 ## Github
 
@@ -324,3 +324,76 @@ Puoi annullarla cliccando il pulsante **Revert** nella parte destra del commit i
 
 ![revertpr](https://camo.githubusercontent.com/0d3350caf2bb1cba53123ffeafc00ca702b1b164/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f68656c702f70756c6c5f72657175657374732f7265766572742d70756c6c2d726571756573742d6c696e6b2e706e67)
 
+---
+
+### Diffs
+
+#### Mappe "diffabili" 
+ Ogni volta che vedi un commit o una pull request che contiene geodata. Github renderizerà una rappresentazione visuale di cosa è cambiato.
+ 
+[![Diffable Maps](https://f.cloud.github.com/assets/282759/2090660/63f2e45a-8e97-11e3-9d8b-d4c8078b004e.gif)](https://github.com/benbalter/congressional-districts/commit/2233c76ca5bb059582d796f053775d8859198ec5)
+
+#### Renderizzare e fare il diff di immagini
+
+Github può mostrare tutti i maggiori formati di immagini, JPG, PNG, GIF e PSD. In aggiunta, ci sono molti modi per comparare le differenze tra le versioni di questi formati.
+
+[![Diffable PSD](https://cloud.githubusercontent.com/assets/2546/3165594/55f2798a-eb56-11e3-92e7-b79ad791a697.gif)](https://github.com/blog/1845-psd-viewing-diffing)
+
+---
+### Hub
+
+[Hub](https://github.com/github/hub) è un wrapper di git da riga di comando, che ti fornisce features e comandi extra che ti permettono di lavorare con Github più facilmente.
+
+`$ hub clone tiimgreen/toc`
+
+---
+### Octicons
+
+L'icona di GitHub, Octicons, è ora open source
+
+![octicons](https://camo.githubusercontent.com/0af1e3241d7517e49c172e4a9f03b9bbce7247a33e41a5aa0efc9605f4ec99ff/68747470733a2f2f6f672e6769746875622e636f6d2f6f637469636f6e732f6f637469636f6e734031323030783633302e706e67)
+
+---
+
+### Github pack per gli sviluppatori 
+
+Se sei uno studenti, e rispettii tutti i requisiti per avere qesto pack. Ti da un credito gratis, prove gratis e acesso in anticipo per software che ti aiutano quando programmi.
+
+![studenti pack](https://camo.githubusercontent.com/c2f8441ca6085caf3c90c1ef04a2b6b24ed7af9074b4550d1b11601586f3da35/687474703a2f2f692e696d6775722e636f6d2f397275334b34332e706e67)
+
+---
+
+### Siti di Github 
+
+| Title | Link |
+| ----- | ---- |
+| GitHub Explore | https://github.com/explore |
+| GitHub Blog | https://github.com/blog |
+| GitHub Help | https://help.github.com/ |
+| GitHub Training | https://training.github.com/ |
+| GitHub Developer | https://developer.github.com/ |
+| Github Education (Free Micro Account and other stuff for students) | https://education.github.com/ |
+| GitHub Best Practices | [Best Practices List](https://www.datree.io/resources/github-best-practices) |
+
+---
+
+### Chiavi ssh
+
+Puoi vedere tutte le chiavi ssh di un utente in chiaro visitando:
+
+`https://github.com/{user}.keys`
+
+### Immagine del profilo 
+
+Puoi avere l'immagine del profilo di un utente visitando:
+
+`https://github.com/{user}.png`
+
+____
+
+## Git
+
+
+
+ 
+ 
