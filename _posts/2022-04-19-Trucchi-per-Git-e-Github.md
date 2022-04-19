@@ -68,9 +68,8 @@ Da qui puoi accedere alla pagina di comparazione o rimuovere un branch solo clic
  
  il valore `{range}` può essere cambiato per cose tipo:
  
- `
-https://github.com/rails/rails/compare/master@{1.day.ago}...master
-https://github.com/rails/rails/compare/master@{2014-10-04}...master`
+ `https://github.com/rails/rails/compare/master@{1.day.ago}...master
+https://github.com/rails/rails/compare/master@{2014-10-04}...master `
 
 Ecco un esempio di `{range}` con la data `YYYY-MM-DD`
 
@@ -367,12 +366,12 @@ Se sei uno studenti, e rispettii tutti i requisiti per avere qesto pack. Ti da u
 
 | Title | Link |
 | ----- | ---- |
-| GitHub Explore | https://github.com/explore |
-| GitHub Blog | https://github.com/blog |
-| GitHub Help | https://help.github.com/ |
-| GitHub Training | https://training.github.com/ |
-| GitHub Developer | https://developer.github.com/ |
-| Github Education (Free Micro Account and other stuff for students) | https://education.github.com/ |
+| GitHub Explore |[github.com/explore](https://github.com/explore) |
+| GitHub Blog |[github's blog](https://github.com/blog) |
+| GitHub Help |[help.github.com](https://help.github.com/) |
+| GitHub Training | [training.github.com](https://training.github.com/) |
+| GitHub Developer | [developer.github.com](https://developer.github.com/) |
+| Github Education (Free Micro Account and other stuff for students) | [education.github.com](https://education.github.com/ )|
 | GitHub Best Practices | [Best Practices List](https://www.datree.io/resources/github-best-practices) |
 
 ---
