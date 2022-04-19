@@ -1,6 +1,8 @@
-> Una collezione di features nascoste e non di Git e Github.
+*Una collezione di features nascoste e non di Git e Github.*
 
 ## Github
+
+> GitHub è un servizio di hosting per progetti software. Il nome deriva dal fatto che "GitHub" è una implementazione dello strumento di controllo versione distribuito Git.
 
 ---
 
@@ -392,7 +394,182 @@ ____
 
 ## Git
 
+>Git è un software per il controllo di versione distribuito utilizzabile da interfaccia a riga di comando, creato da Linus Torvalds nel 2005.
 
+--- 
 
- 
- 
+### Rimuovere tutti i file eliminati dall'albero di lavoro
+
+Quando rimuovi tanti file usando `rm` puoi usare questo comando per rimuoverli tutti dall'albero di lavoro.
+
+`$ git rm $(git ls-files -d)`
+
+Per esempio:
+
+```bash
+$ git status
+On branch master
+Changes not staged for commit:
+	deleted:    a
+	deleted:    c
+
+$ git rm $(git ls-files -d)
+rm 'a'
+rm 'c'
+
+$ git status
+On branch master
+Changes to be committed:
+	deleted:    a
+	deleted:    c
+```
+
+---
+
+### Branch precedente
+
+Per muoversi nel branch precedente in Git:
+
+```bash
+$ git checkout -
+# Switched to branch 'master'
+
+$ git checkout -
+# Switched to branch 'next'
+
+$ git checkout -
+# Switched to branch 'master'
+```
+
+---
+
+### Commit vuoti
+
+i commit possono essere pushati senza modifiche nel codice con `--alow-empty`:
+
+`$ git commit -m "Big-ass commit" --allow-empty`
+
+Qualche caso d'uso (sensato):
+- Annotare l'inizio dello sviluppo di un nuovo software/feature
+- Documentare cambiamenti non collegati al codice
+- Comunicare con le persone usando il repo
+- Primo commit di un repo ` git commit -m "Initial commit" --allow-empty`
+
+---
+
+### Styled Git status
+
+Eseguendo:
+
+`$ git status`
+
+Il risultato sarà:
+
+![gs](https://camo.githubusercontent.com/79baa54cdc4691d29cb460671b781fa3965f7b8a1679745f1622dced815a875d/687474703a2f2f692e696d6775722e636f6d2f716a50797658622e706e67)
+
+Aggiungendo `-sb`:
+
+`$ git status -sb`
+
+Il risultato sarà:
+
+![gssb](https://camo.githubusercontent.com/4c43c56d8661235e55b27f30c308a502912ee8db87ed475e40460f30c37716f6/687474703a2f2f692e696d6775722e636f6d2f4b304f59336e6d2e706e67)
+
+---
+
+### Styled Git log
+
+Eseguendo:
+
+```bash
+$ git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold
+blue)<%an>%Creset' --abbrev-commit --date=relative
+```
+
+il risultato sarà:
+
+![gl](https://camo.githubusercontent.com/41f05fe47382428969483b6f15016b63eebba0616601bc789f704e3c4735f52d/687474703a2f2f692e696d6775722e636f6d2f3538654f746b572e706e67)
+
+---
+
+### Configurazioni
+
+Il file `.gitconfig` contiene le configurazioni per Git
+
+#### Aliases
+
+Gli aliases aiutano a definire comandi personali che richiamano ad altri comandi.
+Per esmpio puoi settare `git a` per eseguire `git add --all`.
+
+Per aggiungere alias in Git, devi editare il file `~/.gitconfig` nel seguente formato:
+
+```
+[alias]
+  co = checkout
+  cm = commit
+  p = push
+  # Show verbose output about tags, branches or remotes
+  tags = tag -l
+  branches = branch -a
+  remotes = remote -v
+```
+
+O scrivendo direttamente nel terminale 
+
+```
+$ git config --global alias.new_alias git_function
+```
+
+Per un alias con comandi multipli usa le virgolette:
+
+```
+$ git config --global alias.ac 'add -A . && commit'
+```
+
+Qualche alias utile:
+
+| Alias | Comando |Cosa scrivere da CLI |
+| --- | --- | --- |
+| `git cm` | `git commit` | `git config --global alias.cm commit` |
+| `git co` | `git checkout` | `git config --global alias.co checkout` |
+| `git ac` | `git add . -A` `git commit` | `git config --global alias.ac '!git add -A && git commit'` |
+| `git st` | `git status -sb` | `git config --global alias.st 'status -sb'` |
+| `git tags` | `git tag -l` | `git config --global alias.tags 'tag -l'` |
+| `git branches` | `git branch -a` | `git config --global alias.branches 'branch -a'` |
+| `git cleanup` | `git branch --merged \| grep -v '*' \| xargs git branch -d` | `git config --global alias.cleanup "!git branch --merged \| grep -v '*' \| xargs git branch -d"` |
+| `git remotes` | `git remote -v` | `git config --global alias.remotes 'remote -v'` |
+| `git lg` | `git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --` | `git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"` |
+
+#### Auto correzione
+
+Git ti da suggerrmenti per comandi con errori, se l'auto correzione è abilitata, li corregerà ed eseguirà automaticamente. L'auto correzione si abilita specificando un intero che è il delay in decide di secondi prima che git eseguirà il comando corretto.
+
+Per esmpio, se scrivi `git comit`, il risultato sarà:
+
+```bash
+$ git comit -m "Message"
+# git: 'comit' is not a git command. See 'git --help'.
+
+# Did you mean this?
+#   commit
+```
+
+L'auto correzione può essere abilitatà così (con un delat di 1.5 secondi):
+
+`$ git config --global help.autocorrect 15`
+
+Quindi ora scrivendo `git comit`, il risultato sarà:
+
+```bash
+$ git comit -m "Message"
+# WARNING: You called a Git command named 'comit', which does not exist.
+# Continuing under the assumption that you meant 'commit'
+# in 1.5 seconds automatically...
+```
+#### Colori
+
+Per aggiungere più colori all'output di Git:
+
+`$ git config --global color.ui 1`
+
+--- 
