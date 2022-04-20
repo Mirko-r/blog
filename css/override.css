@@ -1,7 +1,3 @@
-html{
-  background: black;
-}
-
 hr {
   margin-top: 30px;
   margin-bottom: 20px;
@@ -19,7 +15,7 @@ hr {
 
 .post_navi .post_navi-item {
   padding: 0 2.2em;
-  width: 50%;
+  width: 100%;
   position: relative;
   color: inherit !important;
 }
