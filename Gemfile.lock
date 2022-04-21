@@ -78,6 +78,7 @@ DEPENDENCIES
   jekyll (~> 4.2.2)
   jekyll-avatar
   jekyll-feed (~> 0.12)
+  jekyll-seo-tag
   jekyll-sitemap
   minima
   tzinfo (~> 1.2)
