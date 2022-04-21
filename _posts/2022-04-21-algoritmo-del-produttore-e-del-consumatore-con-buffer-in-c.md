@@ -37,6 +37,8 @@ Alla fine della produzione il consumatore stamperà i valori contenuti nel buffe
 
 ### Lo scheletro del programma
 
+>Un thread o thread di esecuzione, in informatica, è una suddivisione di un processo in due o più filoni (istanze) o sottoprocessi che vengono eseguiti concorrentemente da un sistema di elaborazione monoprocessore (monothreading) o multiprocessore (multithreading) o multicore.
+
 Nel programma serviranno due thread che chiameremo `th_cons` (consumatore) e `th_prod` (produttore)
 
 La libreria che ci servirà è `pthread.h`, i due thread sono due funzioni con puntatori a void, lo scheletro quindi sarà:
@@ -59,7 +61,14 @@ int main(){
 
 ### Il mutex e il main del programma
 
-I thread in questo programma non possono partire "a caso", ci serve quindi un semoforo, un mutex che viene dichiarato con la variabil globale `pthread_mutex_t`. Nel `main` dovremmo quindi dichiarare una variabile `pthread_t` per i thread, inizializzare i trhead e i mutex, inizializzare a 0 il buffer, e distruggere i mutex, l'unica libreria che ci servirà sarà `string.h` per la funzione `memset`.
+>In informatica il termine mutex (contrazione dell'inglese mutual exclusion, mutua esclusione) indica un procedimento di sincronizzazione fra processi o thread concorrenti con cui si impedisce che più task paralleli accedano contemporaneamente ai dati in memoria o ad altre risorse soggette a corsa critica (race condition). Questo concetto riveste importanza fondamentale nella programmazione parallela e soprattutto nei sistemi di transazione.
+
+I thread in questo programma non possono partire "a caso", ci serve quindi:
+
+- un semoforo
+- un mutex che viene dichiarato con la variabil globale `pthread_mutex_t`
+
+Nel `main` dovremmo quindi dichiarare una variabile `pthread_t` per i thread, inizializzare i trhead e i mutex, inizializzare a 0 il buffer, e distruggere i mutex, l'unica libreria che ci servirà sarà `string.h` per la funzione `memset`.
 
 Il codice sarà:
 
@@ -102,7 +111,12 @@ int main(){
 
 ### Buffer e funzioni 
 
-Dobbiamo ora creare un buffer di N elementi e  una variabile "prodotti", che saranno variabili globali, dobbiamo poi creare una funzione per generare un numero casuale da 1 a N e un'altra funzione per stampare il contenuto del buffer.
+>Un buffer In informatica è un area di memoria temporanea (letteralmente «tampone»,) utilizzata generalmente per l’input/output dei dati. In un b. si memorizzano dati che verranno successivamente trasmessi a unità di elaborazione o dati che devono essere scambiati con un dispositivo esterno
+
+Dobbiamo ora :
+- creare un buffer di N elementi e  una variabile `prodotti`, che saranno variabili globali
+- creare una funzione per generare un numero casuale da 1 a `N`
+- creare una funzione per stampare il contenuto del buffer.
 
 Il codice per la funzione che genera un numero casuale è molto semplice:
 
