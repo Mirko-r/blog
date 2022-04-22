@@ -66,6 +66,10 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
+    minima (2.5.1)
+      jekyll (>= 3.5, < 5.0)
+      jekyll-feed (~> 0.9)
+      jekyll-seo-tag (~> 2.1)
     nokogiri (1.13.4-x86_64-linux)
       racc (~> 1.4)
     pathutil (0.16.2)
@@ -92,8 +96,17 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (>= 1.6, < 3.0)
+  http_parser.rb (~> 0.6.0)
+  jekyll (~> 4.2.2)
+  jekyll-feed (~> 0.12)
+  jekyll-seo-tag
+  jekyll-sitemap
   jekyll-theme-yat!
+  minima
   rake (>= 12.0, < 13.0)
+  tzinfo (~> 1.2)
+  tzinfo-data
+  wdm (~> 0.1.1)
   webrick
 
 BUNDLED WITH
