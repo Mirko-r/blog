@@ -177,6 +177,3 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
-
-feed:
-  path: /blog/feed.atom
