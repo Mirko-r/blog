@@ -1,3 +1,11 @@
+---
+
+layout: post
+title: "Trucchi per Git e Github"
+categories: trucchi
+
+---
+
 *Una collezione di features nascoste e non di Git e Github.*
 
 ## Github

@@ -1,5 +1,11 @@
-# Come ho creato questo blog, e come potete farlo anche voi
-## Con Github Pages
+---
+
+layout: post
+title: "Come ho creato questo blog e come potete farlo anche voi"
+categories: tutorial
+
+---
+
 
 ---
 
