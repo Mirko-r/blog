@@ -76,14 +76,12 @@ lang: "it"  # default lang is en
        
 # You can choose a theme color
 # Default theme colors as below:
-# coolblack: #090a0b
-# spacegrey: #353535
-# snowwhite: #ffffff
-#
-theme_color: spacegrey
-#
+coolblack: #090a0b
+spacegrey: #353535
+snowwhite: #ffffff
+
 # Custom color as below:
-# theme_color: "#882250"
+#theme_color: "#882250"
 
 # You can choose a brand color
 # Default brand colors as below:
@@ -177,3 +175,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
+  - jekyll-feed
