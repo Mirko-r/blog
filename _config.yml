@@ -175,4 +175,3 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
-  - jekyll-feed
