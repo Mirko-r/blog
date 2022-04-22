@@ -98,7 +98,7 @@ DEPENDENCIES
   bundler (>= 1.6, < 3.0)
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.2.2)
-  jekyll-feed (~> 0.12)
+  jekyll-feed
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-theme-yat!
