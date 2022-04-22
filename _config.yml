@@ -20,6 +20,12 @@ github_username: "Mirko-r"
 #########################################################################################
 theme: "minima"
 
+minima:
+  skin: dark
+
+header_pages:
+  - archive.md
+
 rss: rss
 
 kramdown:
