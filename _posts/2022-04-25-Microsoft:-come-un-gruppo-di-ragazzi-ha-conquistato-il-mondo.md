@@ -42,20 +42,20 @@ Negli  anni successivi il successo di Altair basic fece di Microsoft una societ�
 
 ![Ms-dos](https://upload.wikimedia.org/wikipedia/it/thumb/7/7d/MS-DOS.svg/1200px-MS-DOS.svg.png)
 
-Entrambe le parti hanno accettato l'accordo ma c'era un problema ancora una volta Gates e Allen non avevano un sistema operativo pronto prima di fare l'accordo. così quello che hanno finito per fare è stato l'acquisto di un sistema operativo da un'azienda locale chiamata **Seattle computer products**  per $75, 000 e promisero di pagare una piccola royalty. Il sistema operativo che Microsoft aveva acquistato da Seattle computer products si chiamava 86-dos che fu rapidamente rinominato da Microsoft in **ms-dos**. Circa un anno dopo, nel 1981, IBM lanciò il suo personal computer che divenne un successo immediato e rese ms-dos il sistema operativo dominante nel mond. Microsoft non solo concesse in licenza il suo sistema operativo a IBM, ma lo concesse anche a più di 70 altre società di computer tra cui Compaq. L'unica vera società di computer che non usava ms-dos all'epoca era un'altra società di medie dimensioni gestita da altri due giovani uomini, Apple computers.Iil dominio di ms-dos finì per spingere le entrate e la valutazione di Microsoft tuttavia ci fu una grande battuta d'arresto nel 1983 proprio quando Microsoft superò 1 milione di installazioni di ms- dos Paul Allen fu diagnosticato un linfoma di Hodgkin e decise di lasciare la società. Paul Allen ricevette una diagnosi di linfoma di Hodgkin e decise di lasciare l'azienda presumibilmente Bill Gates pensò che le azioni di Allen e Microsoft dovessero essere diluite in quel momento perché non stava lavorando abbastanza e non sarebbe più stato in grado di contribuire all'azienda a prescindere.
+Entrambe le parti hanno accettato l'accordo ma c'era un problema ancora una volta Gates e Allen non avevano un sistema operativo pronto prima di fare l'accordo. così quello che hanno finito per fare è stato l'acquisto di un sistema operativo da un'azienda locale chiamata **Seattle computer products**  per $75, 000 e promisero di pagare una piccola royalty. Il sistema operativo che Microsoft aveva acquistato da Seattle computer products si chiamava 86-dos che fu rapidamente rinominato da Microsoft in **ms-dos**. Circa un anno dopo, nel 1981, IBM lanciò il suo personal computer che divenne un successo immediato e rese ms-dos il sistema operativo dominante nel mond. Microsoft non solo concesse in licenza il suo sistema operativo a IBM, ma lo concesse anche a più di 70 altre società di computer tra cui Compaq. L'unica vera società di computer che non usava ms-dos all'epoca era un'altra società di medie dimensioni gestita da altri due giovani ragazzi, Apple computers.Iil dominio di ms-dos finì per spingere le entrate e la valutazione di Microsoft tuttavia ci fu una grande battuta d'arresto nel 1983 proprio quando Microsoft superò 1 milione di installazioni di ms-dos a Paul Allen fu diagnosticato un linfoma di Hodgkin e decise di lasciare la società. Bill Gates pensò che le azioni di Allen dovessero essere diluite in quel momento perché non stava lavorando abbastanza e non sarebbe più stato in grado di contribuire all'azienda a prescindere.
 
 ## Microsoft Works (Office)
 
 ![works](https://winworldpc.com/res/img/screenshots/44c08a3a5cc691fcfc8939af798984c49057988c187eb55b9a002c8ddb43b459.png)
 
-Gates non aveva molto tempo per concentrarsi su problemi esterni a Microsoft dato che l'azienda stava lavorando ad un programma di videoscrittura chiamato **word**,  un programma con foglio di calcolo chiamato **Excel** in un'interfaccia grafica chiamata **Windows**. Microsoft continuò aggiungendo alla sua linea di prodotti software acquisendo la società chiamata **forethought** che è nota per il loro prodotto chiave chiamato **PowerPoint**, dopo l'acquisizione di offorethought, Microsoft finalmente sentì come se avesse abbastanza prodotti software individuali per lanciare un pacchetto di questi prodotti chiamato **Microsoft Works**, che avrebbe poi ispirato ciò che è noto oggi come **Microsoft Office**, questo pacchetto include Microsoft Word, Excel, PowerPoint, e alcune altre applicazioni. Questo pacchetto è stato anche il primo prodotto Microsoft cross-platform disponibile su una varietà di computer come i computer Apple.
+Gates non aveva molto tempo per concentrarsi su problemi esterni a Microsoft dato che l'azienda stava lavorando ad un programma di videoscrittura chiamato **word**,  un programma con foglio di calcolo chiamato **Excel** in un'interfaccia grafica chiamata **Windows**. Microsoft continuò acquisendo la società chiamata **forethought** che è nota per il loro prodotto chiave chiamato **PowerPoint**, dopo l'acquisizione di offorethought, Microsoft finalmente sentì come se avesse abbastanza prodotti software individuali per lanciare un pacchetto di questi prodotti chiamato **Microsoft Works**, che avrebbe poi ispirato ciò che è noto oggi come **Microsoft Office**, questo pacchetto include Microsoft Word, Excel, PowerPoint, e alcune altre applicazioni. Questo pacchetto è stato anche il primo prodotto Microsoft cross-platform disponibile su una varietà di computer come i computer Apple.
 
 ## Windows 1.0
 
 ![1.0](https://upload.wikimedia.org/wikipedia/it/7/71/Windows1.0_screenshot.gif)
 
 
-Nel 1983 Apple era l'unica grande azienda che aveva un'interfaccia grafica per i suoi computer, Microsoft sapeva di dover fare la propria, così due anni dopo Microsoft rilasciò Windows 1. 0 per competere con il sistema operativo di Apple, ma Windows 1. 0 non era un prodotto completo e guadagnò pochissima popolarità all'epoca, ci sarebbero voluti molti anni prima che Windows cominciasse a pagare i dividendi per l'azienda sia in senso figurato che letterale.
+Nel 1983 Apple era l'unica grande azienda che aveva un'interfaccia grafica per i suoi computer, Microsoft sapeva di dover fare la propria, così due anni dopo rilasciò Windows 1. 0 per competere con il sistema operativo di Apple, ma Windows 1. 0 non era un prodotto completo e guadagnò pochissima popolarità all'epoca, ci sarebbero voluti molti anni prima che Windows cominciasse a pagare i dividendi per l'azienda sia in senso figurato che letterale.
 
 ## La quotazione di Microsoft
 
@@ -69,11 +69,11 @@ Il 13 marzo 1986 microsoft ebbe la sua quotazione in borsa  iniziale dove l'azie
 
 Negli anni successivi Microsoft avrebbe continuato a crescere, espandendo la sua linea di prodotti e rilasciando nuove versioni di Windows ogni anno, tutto questo arrivò al culmine nel 1995 quando Microsoft rilasciò Windows95 al pubblico.Il sistema operativo fu una vera rivoluzione per il tempo  ed è conosciuto da molti come la nascita dei moderni sistemi operativi. Era anche responsabile di una delle più grandi campagne di marketing nella storia dei computer. Microsoft ha speso trecento milioni di dollari per il lancio di Windows 95.
 
-- Comprarono 1.5 milioni di copie dei times e li davano gratis 
-- hanno speso soldi per trasformare le luci dell'Empire State Building nei colori del logo di windows 95
-- hanno appeso uno striscione di 100 metri alla CN Tower di Toronto 
-- hanno creato una sitcom di 30 minuti con Jennifer Aniston e Matthew Perry rendendo Windows 95 un punto primario della trama della sitcom
-- hanno anche speso un bel po' di soldi per la licenza della canzone start me up dei Rolling Stones 
+- Comprarono 1.5 milioni di copie dei times e le distribuirono gratis 
+- trasformarono le luci dell'Empire State Building nei colori del logo di windows 95
+- appesero uno striscione di 100 metri alla CN Tower di Toronto 
+- crearono una sitcom di 30 minuti con Jennifer Aniston e Matthew Perry rendendo Windows 95 un punto primario della trama della sitcom
+- speserero un bel po' di soldi per la licenza della canzone start me up dei Rolling Stones 
 - pagarono Jay Leno per apparire in uno dei lanci di prodotto più memorabili della storia
 
 Tutto questo marketing fu un successo perché la società vendette 1 milione di copie del sistema operativo in quattro giorni, raddoppiando la valutazione della società nei due mesi successivi. 
@@ -102,7 +102,7 @@ Sotto la guida di Steve Ballmer e Bill Gates, che ora era il capo architetto del
 
 Steve Ballmer decise di dimettersi da amministratore delegato e nominare Satya Nadella nuovo amministratore delegato dell'azienda, subito dopo essere diventato amministratore delegato, l'azienda decise di acquistare una società di giochi chiamata Mojang, che è la creatrice di Minecraft, decise anche di acquistare la piattaforma di programmazione Github e il social network LinkedIn. Durante tutte queste acquisizioni Satya si è concentrato su una parte del business di Microsoft, il cloud computing, Microsoft Azure è cresciuta a un tasso folle negli ultimi anni, ci sono stati alcuni trimestri in cui le vendite sono cresciute del 100% ed è la crescita di Azure che ha reso Microsoft una delle aziende leader nel mondo per il cloud computing dietro solo ad Amazon. A causa del successo di Azure insieme alle altre attività di Microsoft, Microsoft è stata in grado di riconquistare il titolo di azienda più preziosa del mondo nel 2019, Paul Allen si è dimesso dal consiglio di amministrazione di Microsoft nel 2000 e non ha trascorso molto tempo in Microsoft dopo questa data.
 
----<>
+---
 
 Tutto questo è stato creato da una coppia di adolescenti in un computer Club
 
