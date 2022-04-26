@@ -2,7 +2,7 @@
 
 layout: post
 title: "Trucchi per Git e Github"
-categories: trucchi
+categories: Trucchi
 
 ---
 

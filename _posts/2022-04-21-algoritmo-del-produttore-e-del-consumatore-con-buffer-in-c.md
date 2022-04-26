@@ -2,7 +2,7 @@
 
 layout: post
 title: "Algoritmo del produttore e del consumatore in C"
-categories: programmazione
+categories: Programmazione
 
 ---
 

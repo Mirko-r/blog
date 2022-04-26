@@ -2,7 +2,7 @@
 
 layout: post
 title: "Come ho creato questo blog e come potete farlo anche voi"
-categories: tutorial
+categories: Tutorial
 
 ---
 
