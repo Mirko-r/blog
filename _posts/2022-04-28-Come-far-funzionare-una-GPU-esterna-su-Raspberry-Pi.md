@@ -8,7 +8,7 @@ categories: Tutorial
 
 ## I problemi di ARM e Broadcom con PCI Express
 
-Nel 2020, dopo che Raspberry ha rilasciato l'ultima versione della sua cheda. Ho iniziato le ricerche per far funzionare una scheda grafica esterna con un raspberry pi 4.
+Nel 2020, dopo che Raspberry ha rilasciato l'ultima versione della sua scheda. Ho iniziato le ricerche per far funzionare una scheda grafica esterna con un raspberry pi 4.
 
 ![exgc](https://www.jeffgeerling.com/sites/default/files/images/amd-radeon-gpu-with-raspberry-pi-compute-module-4.jpeg)
 
