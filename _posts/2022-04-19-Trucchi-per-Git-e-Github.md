@@ -564,7 +564,7 @@ $ git comit -m "Message"
 #   commit
 ```
 
-L'auto correzione può essere abilitatà così (con un delat di 1.5 secondi):
+L'auto correzione può essere abilitatà così (con un delay di 1.5 secondi):
 
 `$ git config --global help.autocorrect 15`
 
