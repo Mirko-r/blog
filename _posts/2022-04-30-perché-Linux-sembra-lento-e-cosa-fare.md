@@ -35,7 +35,7 @@ Il primo problema é che la block cache compete con le applicazioni per la RAM. 
 
 Su un normale computer desktop Linux, quando sei a corto di RAM, Linux cercherà in modo aggressivo di liberare memoria per ingrandire le cache. Di solito lo fa eseguendo il paging su disco di parti inutilizzate di applicazioni. Questo non è proprio ottimale.
 
-## Il modo in cui Linux utilizza la RAM è importante per le prestazioni
+### Il modo in cui Linux utilizza la RAM è importante per le prestazioni
 
 Se hai 1 GB di RAM (o meno) e decomprimi un archivio da 300 MB, il kernel Linux scambierà parti delle tue applicazioni su disco nel tentativo di ospitare sia il file da 300 MB che i blocchi dei file non compressi che stanno per essere scritti su disco. Riducendo la cache inode/dentry.
 
