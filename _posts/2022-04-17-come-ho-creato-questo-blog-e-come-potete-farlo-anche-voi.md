@@ -6,9 +6,6 @@ categories: Tutorial
 
 ---
 
-
----
-
 >**Se sei familiare con Github Pages potresti vedere alcune cose "incorrette"... questo è perchè sto cercando di mantenerlo semplice**
 
 "Come inizio con il blogging?"
