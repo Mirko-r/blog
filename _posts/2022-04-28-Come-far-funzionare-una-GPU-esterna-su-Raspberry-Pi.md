@@ -2,7 +2,7 @@
 
 layout: post
 title: "Come far funzionare una GPU esterna su Raspberry Pi"
-categories: Tutorial
+categories: Tutorial Raspberry
 
 ---
 
