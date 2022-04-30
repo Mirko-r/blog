@@ -10,7 +10,7 @@ categories: Tutorial Linux
 
 Le performance desktop di Linux sono sempre state un problema, e sono la causa vecchie guerre tra gli sviluppatori di Linux. Oggi, voglio mostrarti come ho migliorato drasticamente le prestazioni del mio laptop.
 
-# Il problema
+## Il problema
 
 Qual é la prima causa dei problemi di performance?
 
@@ -22,7 +22,7 @@ Rispondiamo con altre domande:
 
 Questi problemi di performance ci sono quasi sempre. In effetti, sarei disposto a scommettere che questa è la causa per cui la maggior parte delle persone trova Linux lento.
 
-## La radice del problema
+### La radice del problema
 
 Ecco la mia scoperta principale: le prestazioni desktop hanno ben poco a che fare con gli scheduler e le prestazioni reali. Ha tutto a che fare con la memorizzazione nella cache del disco e le prestazioni percepite. **Perché infatti le prestazioni reali sono ottime**
 
@@ -45,7 +45,7 @@ Questo perché Linux soddisfa le esigenze del programma di decompressione e le t
 
 Non bene. Suppongo che le impostazioni predefinite possano essere molto buone per carichi di lavoro con molte attività ripetute, ma decisamente non adatte a situazioni desktop.
 
-# Noi vogliamo le performance percepite
+## Noi vogliamo le performance percepite
 
 Prendiamo ad esempio un file manager. Concentriamoci su Konqueror. Supponiamo di premere il pulsante Home sul pannello, che mostra una delle istanze di Konqueror e gli chiede di sfogliare la mia home directory.
 
@@ -59,10 +59,10 @@ Questo è ciò che sto dicendo: prestazioni percepite, non throughput. Per me è
 
 Variazioni di questo modello possono essere trovate ovunque: nelle finestre di dialogo di apertura dei file, nelle applicazioni multimediali con raccolte, praticamente ovunque un'operazione richieda una sorta di rapporto sullo stato di avanzamento.
 
-# Le soluzioni
+## Le soluzioni
 In giro per internet, ma soprattutto Reddit, ho trovato due soluzioni:
 
-## Ottimizzazione della swappiness
+### Ottimizzazione della swappiness
 
 "Swappiness" è il nome che gli sviluppatori del kernel Linux hanno dato alla preferenza tra il paging delle applicazioni su disco e (in pratica) la riduzione della cache. Se è vicino a 0, Linux preferirà mantenere le applicazioni nella RAM e non aumentare le cache. Se è vicino a 100, Linux preferirà sostituire le applicazioni e allargare il più possibile le cache. L'impostazione predefinita è 60.
 
@@ -98,7 +98,7 @@ Questo perché, con lo swappiness disattivato, il kernel Linux non tenta più di
 
 Per rendere permanente la modifica, scrivi `vm.swappines=1` nel file `/etc/sysctl.conf`.
 
-## Le cache del filesystem é più importante delle altre cache
+### Le cache del filesystem é più importante delle altre cache
 
 Abbiamo già stabilito che la cache del filesystem è importante perché, senza di essa, anche la navigazione dei file procede molto lentamente. Ora impareremo come dire a Linux che vogliamo che preferisca la cache inode/dentry ad altre cache.
 
@@ -132,7 +132,7 @@ Per rendere permanente la modifica, metti `vm.vfs_cache_pressure=50` nel file `/
 
 I valori vicini a 100 non forniscono alcun guadagno. Valori prossimi allo zero possono causare un'enorme attività di scambio durante le scansioni di file system di grandi dimensioni.
 
-# Questo è tutto
+## Questo è tutto
 
 Linux desktop è abbastanza buono. Tuttavia, ci sono alcune situazioni in cui potrebbe migliorare. Fortunatamente, Linux è pronto all'uso con le cose necessarie per ottimizzarlo per le prestazioni desktop.
 
