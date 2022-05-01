@@ -4,11 +4,11 @@
   <script>
     var gitment = new Gitment({
       id: '{{ page.id }}',
-      owner: '{{ Mirko-r }}',
-      repo: '{{ https://github.com/Mirko-r/blog }}',
+      owner: '{{ site.gitment.username }}',
+      repo: '{{ site.gitment.repo }}',
       oauth: {
-        client_id: '{{ fdf50f4036e2b08d9738 }}',
-        client_secret: '{{ 56163942eb91b7e05defb838873d2d89bed8f342 }}',
+        client_id: '{{ site.gitment.client_id }}',
+        client_secret: '{{ site.gitment.client_secret }}',
       },
     });
     gitment.render('gitment_thread')
