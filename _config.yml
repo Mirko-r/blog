@@ -152,7 +152,7 @@ night_mode: "on"
 
 # Disqus comments
 disqus:
-  shortname: "mirko_rovere"
+  shortname: "mirko-blog"
 
 # Gitment comments
 #gitment:
