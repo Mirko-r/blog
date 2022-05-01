@@ -155,11 +155,11 @@ night_mode: "on"
 #   shortname: "Your Disqus username"
 
 # Gitment comments
-# gitment:
-#   username: "Your GitHub username"
-#   repo: "The repo to store comments"
-#   client_id: "Your client ID"
-#   client_secret: "Your client secret"
+gitment:
+   username: "Mirko-r"
+   repo: "https://github.com/Mirko-r/blog"
+   client_id: "fdf50f4036e2b08d9738"
+   client_secret: "56163942eb91b7e05defb838873d2d89bed8f342"
 #   redirect_uri: "Your redirect url"   # If you use a custom domain name
 
 # Build settings
