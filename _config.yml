@@ -155,11 +155,11 @@ night_mode: "on"
 #   shortname: "Your Disqus username"
 
 # Gitment comments
-gitment:
-   username: "Mirko-r"
-   repo: "https://github.com/Mirko-r/blog/issues/"
-   client_id: "fdf50f4036e2b08d9738"
-   client_secret: "b45ffc2c6288828cedce42e48252ef7118e1bed1"
+#gitment:
+#   username: "Mirko-r"
+#   repo: "https://github.com/Mirko-r/blog/issues/"
+#   client_id: "fdf50f4036e2b08d9738"
+#   client_secret: "b45ffc2c6288828cedce42e48252ef7118e1bed1"
 #   redirect_uri: "Your redirect url"   # If you use a custom domain name
 
 # Build settings
