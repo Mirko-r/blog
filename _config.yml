@@ -151,8 +151,8 @@ night_mode: "on"
 # paginate: 5
 
 # Disqus comments
-# disqus:
-#   shortname: "Your Disqus username"
+ disqus:
+   shortname: "@mirko_rovere"
 
 # Gitment comments
 #gitment:
