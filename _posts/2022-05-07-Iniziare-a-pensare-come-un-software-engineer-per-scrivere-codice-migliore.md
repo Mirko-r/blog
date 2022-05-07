@@ -24,7 +24,7 @@ Definire il codice come di buona o scarsa qualità è una cosa molto soggettiva 
  4. **Non reinventare la ruota:** non è neccessario creare da 0 un sistema per importare i file quando c'è una libreria che lo fa già. 
   
  
- ## I pilastri
+## I pilastri
  
  I 4 obiettivi che abbiamo appena esaminato ci aiutano a concentrarci su ciò che stiamo cercando di raggiungere, ma non forniscono consigli specifici su cosa fare nella nostra programmazione quotidiana. Ecco alcune strategie che ci aiuteranno a raggiungere facilmente questi obiettivi.
  
