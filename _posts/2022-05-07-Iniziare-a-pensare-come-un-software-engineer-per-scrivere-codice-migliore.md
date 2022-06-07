@@ -14,7 +14,7 @@ Un codice di qualità tende a produrre software più affidabile, più facile da 
 
 ![qualityofcde](https://cdn.hashnode.com/res/hashnode/image/upload/v1639468826578/Rx2sAQQPK.png?auto=compress,format&format=webp)
 
-## Gli obbiettivi
+## Gli obiettivi
 
 Definire il codice come di buona o scarsa qualità è una cosa molto soggettiva ed estremamente giudicante. Per cercare di essere un po' più obbiettivi, dovresti guardare il tuo codice e cercare di capire esattamente che cosa vuoi che esso faccia. Tom Longs suggerisce che un codice che ha queste 4 cose sia di alta qualità:
  
