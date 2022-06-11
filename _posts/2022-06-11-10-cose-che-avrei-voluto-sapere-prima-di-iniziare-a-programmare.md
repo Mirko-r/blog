@@ -35,9 +35,9 @@ Fai un elenco di 10-20 aziende in cui vorresti entrare, cerca i loro annunci di 
 
 I linguaggi non vengono semplicemente creati con la speranza che vengano compresi. Linguaggi, framework e librerie sono ampiamente documentati online, dai concetti più elementari alle applicazioni più complicate. Ecco alcuni esempi:
 
-- [Python.org](Python.org)
-- [RubyonRails.org](RubyonRails.org)
-- [Reactjs.org](Reactjs.org)
+- [Python.org](https://www.python.org/)
+- [RubyonRails.org](https://rubyonrails.org/)
+- [Reactjs.org](https://reactjs.org/)
 
 ---
 
@@ -45,7 +45,7 @@ I linguaggi non vengono semplicemente creati con la speranza che vengano compres
 
 Google viene utilizzato da ogni singolot may be learned like any other language or skill. Initially, it makes no sense, much as French or Chinese makes no sense to a non-native speaker at first. Similar to these languages, however, you gradually learn how to describe your message using its syntax and vocabulary and how to convey any message you desire using it.
 
- programmatore quando si blocca. Questo non è qualcosa fatto solo da principianti, né è qualcosa che scompare nel tempo. Ci sono buone probabilità che tu non sia l'unica persona ad essersi trovata davanti il messaggio di errore o il bug che stai riscontrando e, se sei fortunato, altri hanno utilizzato [StackOverflow.com](StackOverflow.com) o un sito Web simile per risolvere lo stesso problema che stai avendo tu, facendoti risparmiare molte ore.
+ programmatore quando si blocca. Questo non è qualcosa fatto solo da principianti, né è qualcosa che scompare nel tempo. Ci sono buone probabilità che tu non sia l'unica persona ad essersi trovata davanti il messaggio di errore o il bug che stai riscontrando e, se sei fortunato, altri hanno utilizzato [StackOverflow.com](https://stackoverflow.com/) o un sito Web simile per risolvere lo stesso problema che stai avendo tu, facendoti risparmiare molte ore.
 
 ---
 
