@@ -43,9 +43,7 @@ I linguaggi non vengono semplicemente creati con la speranza che vengano compres
 
 ## Google è tuo amico
 
-Google viene utilizzato da ogni singolot may be learned like any other language or skill. Initially, it makes no sense, much as French or Chinese makes no sense to a non-native speaker at first. Similar to these languages, however, you gradually learn how to describe your message using its syntax and vocabulary and how to convey any message you desire using it.
-
- programmatore quando si blocca. Questo non è qualcosa fatto solo da principianti, né è qualcosa che scompare nel tempo. Ci sono buone probabilità che tu non sia l'unica persona ad essersi trovata davanti il messaggio di errore o il bug che stai riscontrando e, se sei fortunato, altri hanno utilizzato [StackOverflow.com](https://stackoverflow.com/) o un sito Web simile per risolvere lo stesso problema che stai avendo tu, facendoti risparmiare molte ore.
+Google viene utilizzato da ogni singolo programmatore quando si blocca. Questo non è qualcosa fatto solo da principianti, né è qualcosa che scompare nel tempo. Ci sono buone probabilità che tu non sia l'unica persona ad essersi trovata davanti il messaggio di errore o il bug che stai riscontrando e, se sei fortunato, altri hanno utilizzato [StackOverflow.com](https://stackoverflow.com/) o un sito Web simile per risolvere lo stesso problema che stai avendo tu, facendoti risparmiare molte ore.
 
 ---
 
