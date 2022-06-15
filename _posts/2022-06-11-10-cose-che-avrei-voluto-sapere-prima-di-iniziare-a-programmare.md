@@ -19,15 +19,15 @@ Nonostante il fatto che il tuo primo linguaggio sarà quasi probabilmente più d
 
 ### Semplicità di programmazione
 
-La semplicità di programmazione è un fattore che deve essere considerato. Sii onesto con te stesso riguardo al tuo livello di fiducia o intimidazione. Se la scelta di un linguaggio più difficile alla fine ti impedirà di crescere con esso, potrebbe essere preferibile sceglierne uno con la quale puoi prima crescere.
+La semplicità di programmazione è un fattore che deve essere considerato. Sii onesto con te stesso riguardo al tuo livello di fiducia o intimidazione. Se la scelta di un linguaggio più difficile alla fine ti impedirà di crescere con esso, potrebbe essere preferibile sceglierne uno che ti permetta di farlo.
 
 ### Scegli ciò che è più adatto
 
 Anche il motivo per cui stai imparando è una componente significativa. Se hai un'idea per un'app che desideri sviluppare, dovresti prima considerare la logistica dell'app nelle sue fasi iniziali e su larga scala, quindi esaminare quali linguaggi e tecnologie di programmazione sono più adatti alle tue esigenze.
 
-### Nel modo del lavoro
+### Nel mondo del lavoro
 
-Fai un elenco di 10-20 aziende in cui vorresti entrare, cerca i loro annunci di lavoro per opportunità di ingegneria del software e prendi nota dei linguaggi che usano.
+Fai un elenco di 10-20 aziende in cui vorresti entrare, cerca i loro annunci di lavoro e prendi nota dei linguaggi che usano.
 
 ---
 
@@ -43,7 +43,7 @@ I linguaggi non vengono semplicemente creati con la speranza che vengano compres
 
 ## Google è tuo amico
 
-Google viene utilizzato da ogni singolo programmatore quando si blocca. Questo non è qualcosa fatto solo da principianti, né è qualcosa che scompare nel tempo. Ci sono buone probabilità che tu non sia l'unica persona ad essersi trovata davanti il messaggio di errore o il bug che stai riscontrando e, se sei fortunato, altri hanno utilizzato [StackOverflow.com](https://stackoverflow.com/) o un sito Web simile per risolvere lo stesso problema che stai avendo tu, facendoti risparmiare molte ore.
+Google viene utilizzato da ogni singolo programmatore quando non sa come continuare. Questo non è qualcosa fatto solo dai principianti e non è qualcosa che scompare nel tempo. Ci sono buone probabilità che tu non sia l'unica persona ad essersi trovata davanti il messaggio di errore o il bug che stai riscontrando e, se sei fortunato, altri hanno utilizzato [StackOverflow.com](https://stackoverflow.com/) o un sito Web simile per risolvere lo stesso problema che stai avendo tu, facendoti risparmiare molte ore.
 
 ---
 
@@ -61,7 +61,7 @@ Non potrai mai sapere tutto sulla programmazione, o anche su un singolo linguagg
 
 Ciò è in parte dovuto al fatto che ci sono semplicemente troppe informazioni. Ma è anche perché la conoscenza è in continua evoluzione.
 
-Nuove versioni di linguaggi con varie funzionalità e modifiche vengono pubblicate regolarmente. Vengono introdotti nuovi framework e librerie che diventano rapidamente il framework del momento, con tutti coloro che desiderano utilizzarli. Alla scoperta di tecniche migliroi per sostituire le attuali.
+Nuove versioni di linguaggi con varie funzionalità e modifiche vengono pubblicate regolarmente. Vengono introdotti nuovi framework e librerie che diventano rapidamente la tecnologia del momento, con tutti coloro che desiderano utilizzarli. Alla scoperta di tecniche migliroi per sostituire le attuali.
 
 L'unica costante nella programmazione è che è in continuo cambiamento ed evoluzione, ed è essenziale accettare questa cosa fin dall'inizio.
 
@@ -85,7 +85,7 @@ GitHub è solo un servizio di hosting di repository remoto per i tuoi repository
 
 ## HackerRank, LeetCode, and Codewars esistono
 
-Ci sono innumerevoli sfide di codice su questi tre siti Web (tra gli altri) che ti consentono di perfezionare le tue abilità.
+Ci sono innumerevoli sfide di codice su questi tre siti Web che ti consentono di perfezionare le tue abilità.
 
 Quando ti senti a tuo agio nello scrivere anche il codice più fondamentale, puoi visitare una o tutte e tre queste risorse per iniziare a imparare a risolvere i problemi usando il codice. Migliorano non solo la tua comprensione della sintassi e della scrittura, ma anche la tua capacità di risolvere i problemi.
 
@@ -97,7 +97,7 @@ Personalmente, adoro LeetCode poiché fornisce feedback sulla qualità della tua
 
 Non sarai mai impeccabile, né saprai mai tutto. Tuttavia, non posso sottolineare abbastanza il significato della pratica.
 
-Ci sono stati casi in cui io, come tutti gli altri, mi sono sentito come se stessi cercando di capire qualcosa che semplicemente non scattava. Può farti sentire demoralizzato e desiderare di arrendersi e passare al prossimo sforzo. Ma ti garantisco che se persisti, se continui a esercitarti, anche se sembra che non stai facendo progressi, alla fine sperimenterai il momento di chiarezza. All'improvviso, tutto avrà perfettamente senso. Può essere difficile arrivarci, ma ne vale la pena.
+Ci sono stati casi in cui io, come tutti gli altri, mi sono sentito come se stessi cercando di capire qualcosa che semplicemente non scattava. Può farti sentire demoralizzato, desiderare di arrendersi e passare al prossimo sforzo. Ma ti garantisco che se persisti, se continui a esercitarti, anche se sembra che non stai facendo progressi, alla fine sperimenterai il momento di chiarezza. All'improvviso, tutto avrà perfettamente senso. Può essere difficile arrivarci, ma ne vale la pena.
 
 ---
 
@@ -107,7 +107,7 @@ I termini linguaggio, framework e libreria sono spesso usati in contesti estrema
 
 Le librerie e i framework si basano e utilizzano linguaggi, sebbene non siano identici. Entrambi danno soluzioni a problemi comuni astraendo il linguaggio su cui sono costruiti. In genere, ciò assume la forma di metodi riutilizzabili o un'opzione della riga di comando per produrre lo scheletro di una nuova applicazione. 
 
-Utilizzando una libreria, il programmatore mantiene il controllo e determina dove verrà utilizzata la libreria. Lui è responsabile del flusso della domanda. React.js e Redux sono esempi di librerie; sono entrambe librerie JavaScript. Con un framework, il flusso dell'applicazione è predeterminato. Rails e Django sono framework popolari rispettivamente per Ruby e Python.
+Utilizzando una libreria, il programmatore mantiene il controllo e determina dove essa verrà utilizzata. Lui è responsabile del flusso della domanda. React.js e Redux sono esempi di librerie; sono entrambe librerie JavaScript. Con un framework, il flusso dell'applicazione è predeterminato. Rails e Django sono framework popolari rispettivamente per Ruby e Python.
 
 ---
 
@@ -117,6 +117,6 @@ La programmazione comporta molto di più che la conoscenza e la sintassi.
 
 Quando funziona come previsto, scrivere codice è semplice. Sapere come eseguire il debug quando sei certo che il codice che hai scritto sia corretto. Implica la risoluzione di un compito difficile. Questa è la fase dura e divertente.
 
-Per fare ciò, devi comprendere non solo che a+b=c, ma anche perché a+b=c. Se non lo fai, un giorno aggiungerai a e b e riceverai d senza idea del perché e senza strumenti per capire perché.
+Per fare ciò, devi comprendere non solo che a+b=c, ma anche perché a+b=c. Se non lo fai, un giorno aggiungerai a e b e riceverai d senza idea del perché e senza strumenti per capire.
 
 Le complessità di ciascun linguaggio di programmazione e il modo in cui opera una riga di codice sono della massima importanza, poiché occasionalmente possono portare a risultati inaspettati.
